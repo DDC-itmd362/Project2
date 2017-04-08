@@ -7,6 +7,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
+/*  IIT COLORS IN HEX:
+    IIT Red: #CF102D
+    IIT Grey: #76777B;
+    IIT Black: #00000;
 
 /*
 Setting type to major second modular scale
@@ -15,6 +19,6 @@ http://www.modularscale.com/?16&px&1.125&web&text
 html {
   font-size: 1em;  /* 16px */
   line-height: 1.5em;  /* 24px  */
-  background-color: #003300;
-  color: #8E582A;
+  background-color: #76777B;
+  color: #000000;
 }

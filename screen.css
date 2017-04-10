@@ -46,6 +46,19 @@ form {
 
 /* ===== LAYOUT STYLES ===== */
 
+.menu {
+  border-width: 0.33em;
+  border-style: solid;
+  white-space: pre-line;
+  float: center;
+  width: 10em;
+}
+
+.slideshow {
+  position: relative;
+  top: -30em;
+}
+
 .credit {
   border-width: 0.33em;
   border-style: solid;

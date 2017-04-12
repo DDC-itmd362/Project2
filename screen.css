@@ -39,22 +39,37 @@ form {
   font-weight: bold;
   line-height: 1.32em; 
   padding-bottom: 0.94em; 
-  float: center;
   margin: 0 auto;
   text-align: left;
 }
 
 /* ===== LAYOUT STYLES ===== */
 
-.credit {
+.menu {
   border-width: 0.33em;
   border-style: solid;
   white-space: pre-line;
+  float: center;
+  width: 10em;
+}
+
+.slideshow {
+  width: 100%;
+}
+
+.credit {
+  border-width: 0.33em;
+  border-style: solid;
+  border-radius: 0.33em;
+  white-space: pre-line;
+  width: 100%;
 }
 .checking{
   border-width: 0.33em;
   border-style: solid;
+  border-radius: 0.33em;
   white-space: pre-line;
+  width: 100%;
 }
 
 

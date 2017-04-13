@@ -1,14 +1,14 @@
 		var slideimages = new Array() // create new array to preload images
 		slideimages[0] = new Image() // create new instance of image object	
-		slideimages[0].src = "img/basketball.jpg" // set image object src property to an image's src, preloading that image in the process
+		slideimages[0].src = "../img/basketball.jpg" // set image object src property to an image's src, preloading that image in the process
 		slideimages[1] = new Image()
-		slideimages[1].src = "img/programming.jpg"
+		slideimages[1].src = "../img/programming.jpg"
 		slideimages[2] = new Image()
-		slideimages[2].src = "img/scholarship.jpg"
+		slideimages[2].src = "../img/scholarship.jpg"
 		slideimages[3] = new Image()
-		slideimages[3].src = "img/research.jpg"
+		slideimages[3].src = "../img/research.jpg"
 		slideimages[4] = new Image()
-		slideimages[4].src = "img/gym.jpg"
+		slideimages[4].src = "../img/gym.jpg"
 
 		//variable that will increment through the images
 		var step = 0

@@ -12,14 +12,20 @@
     <img  id="IIT-logo" src="../img/IIT-logo.png" alt="IIT's Logo">
   </header>
   <main id="content">
-    <form class="login" name="form" action="/welcome" method="get">
-      <label for="username"><b>Username or Email:</b></label>
-      <input type="text" id="username" placeholder="johndoe1" name="username" required>
-
-      <label for="password"><b>Password:</b></label>
-      <input type="password" id="password" placeholder="Password" name="password" required>
-
-      <input type="submit" value ="Login" class="button"/>
+    <form action="/welcome" id="login" name="login" method="get" autocomplete="off">
+      <ol>
+        <li id="input-username">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="john doe" name="username" required>
+        </li>
+        <li id="input-password">
+          <label for="password">Password</label>
+          <input type="text" id="password" placeholder="Password" name="password" required>
+        </li>
+        <li id="input-submit">
+          <input type="submit" name="submit" id="submit" value="Log In"/>
+        </li>
+      </ol>
     </form>
   </main>
 

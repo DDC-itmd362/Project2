@@ -27,12 +27,22 @@ html {
   font-family: "Lucida bright", sans-serif;
 }
 
-#content, #header, h1 {
+#content, #header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  font-size: 3em; /* 48px */
+}
+
+img {
+  padding-top: 2em;
+  padding-bottom: 1em;
+
 }
 
 body {
@@ -55,8 +65,10 @@ input {
 }
 
 input {
-  background-color: #99CC99;
+  /*background-color: #99CC99;*/
+  background-color: #FFFFFF;
   color: #003300;
+  /*color: #000000;*/
   border: 0;
   padding: 1em;
   border-radius: 0.5em;

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tuition Payment Page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="../css/screen.css"/>
+  <script src="../javascript/home.js" type="text/javascript"></script>
+</head>
+<body>
+  <h1> Tuition Payment Page </h1>
+  <a class="button" href="#credit">Pay by Credit Card</a>
+  <img src="../img/creditcard.jpg" alt="creditcard" style="width:4em;height:2.5em;">
+  <a class="button" href="#check">Pay by Checking Account</a>
+  <img src="../img/check.jpg" alt="check" style="width:5em;height:2.5em;">
+  <h2 id="credit">Credit Card Payment</h2>
+  <form id="form" name="form" action="#null" method="post" class="credit" onSubmit="return check()">
+    <label for ="name">Please enter name as appears on card:</label>    
+    <input type="text" id="name" name="name" placeholder="John Doe" required />
+    <label for ="name">Credit Card Number:</label>    
+    <input type="text" pattern="[0-9]{13,16}" id="number" name="number" placeholder="0000 0000 0000 0000" required/>
+    <label for ="cvc">CVS code:</label>    
+    <input type="text" id="cvc" name="cvc" placeholder="000" required/>
+    <label for ="exp">Card Expiration:</label>    
+    <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+    <select name='expireMM' id='expireMM'>
+      <option value=''>Month</option>
+      <option value='01'>January</option>
+      <option value='02'>February</option>
+      <option value='03'>March</option>
+      <option value='04'>April</option>
+      <option value='05'>May</option>
+      <option value='06'>June</option>
+      <option value='07'>July</option>
+      <option value='08'>August</option>
+      <option value='09'>September</option>
+      <option value='10'>October</option>
+      <option value='11'>November</option>
+      <option value='12'>December</option>
+    </select> 
+    <select name='expireYY' id='expireYY'>
+      <option value=''>Year</option>
+      <option value='10'>2010</option>
+      <option value='11'>2011</option>
+      <option value='12'>2012</option>
+    </select> 
+    
+    <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+    <label for ="amount">Amount:</label>    
+    <input type="text" id="amount" name="amount" placeholder="1234.56" required/>
+    <label for ="email">E-mail address for reciept:</label>    
+    <input type="email" id="email" name="email" placeholder="johndoe123@hawk.iit.edu" required />
+    <input type="submit" value ="Submit payment" class="button"/>
+  </form>
+  <section class ="checktitle">
+    <h2 id="check">Checking Account Payment</h2>
+    <form id="form" name="form" action="#null" method="post" class="checking" onSubmit="return check()">
+      <label for ="name">Please enter full name:</label>    
+      <input type="text" id="name" name="name" placeholder="John Doe" required />
+      <label for ="address">Please enter address:</label>    
+      <input type="text" id="address" name="address" placeholder="123 random st. Chicago, IL 60601" required/>
+      <label for ="bank">Please enter name of bank</label>    
+      <input type="text" id="bank" name="bank" placeholder="Full name of bank" required/>
+      <label for ="routing">Please enter routing number:</label>    
+      <input type="text" id="routing" name="routing" placeholder="Enter routing number" required/>
+      <label for ="checknum">Please enter checking account number:</label>    
+      <input type="text" id="checknum" name="checknum" placeholder="Enter account number" required/>
+      <label for ="checknum2">Please re-enter checking account number:</label>    
+      <input type="text" id="checknum2" name="checknum2" placeholder="Re-enter account number" required/>
+      <label for ="amount">Amount:</label>    
+      <input type="text" id="amount" name="amount" placeholder="1234.56" required/>
+      <label for ="email">E-mail address for reciept:</label>    
+      <input type="email" id="email" name="email" placeholder="johndoe@hawk.iit.edu" required />
+      <input type="submit" value ="Submit payment" class="button"/>
+    </form>
+  </section>
+</body>
+</html>
+

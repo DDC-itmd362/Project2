@@ -1,0 +1,82 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* ===== BASE STYLES ===== */
+
+/*
+Setting type to major second modular scale
+http://www.modularscale.com/?16&px&1.125&web&text
+*/
+html {
+  font-size: 1em;  /* 16px */
+  line-height: 1.5em;  /* 24px  */
+  background-color: #90EE90;
+  color: #000000;
+  font-family: "Lucida bright", sans-serif;
+}
+
+#content, #header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em; /* 48px */
+}
+
+img {
+  padding-top: 2em;
+  padding-bottom: 1em;
+
+}
+
+body {
+  margin: 1.5em;
+}
+
+/*  Form base styles */
+
+label,
+input {
+
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+input {
+  background-color: #FFFFFF;
+  color: #003300;
+  border: 0;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+li[id^="input"] {
+  margin-bottom: 1em;
+}
+
+/* end of form base styles */
+/* ===== STATE STYLES ===== */
+/* media queries, state ex. nojs (has is (isActive, Inactive)) */
+/*.hasjs input[type="submit"] {
+  position: absolute;
+  left: -100000em;
+}
+
+.hasjs input[type="submit"].active {
+  position: static;
+}*/

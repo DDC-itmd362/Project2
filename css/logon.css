@@ -7,13 +7,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
-/*selector (element, tag) {
-  property: value;
-    fonts
-    color of text
-    line height {padding, }
-    others (check documentation)
-}*/
 
 /*
 Setting type to major second modular scale
@@ -65,10 +58,8 @@ input {
 }
 
 input {
-  /*background-color: #99CC99;*/
   background-color: #FFFFFF;
   color: #003300;
-  /*color: #000000;*/
   border: 0;
   padding: 1em;
   border-radius: 0.5em;
@@ -79,3 +70,13 @@ li[id^="input"] {
 }
 
 /* end of form base styles */
+/* ===== STATE STYLES ===== */
+/* media queries, state ex. nojs (has is (isActive, Inactive)) */
+/*.hasjs input[type="submit"] {
+  position: absolute;
+  left: -100000em;
+}
+
+.hasjs input[type="submit"].active {
+  position: static;
+}*/

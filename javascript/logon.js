@@ -7,18 +7,9 @@ $(function($) {
     }
   );
 
-
-  if (/Mobi/.test(navigator.userAgent)) {
-    console.log('chip');
-    console.log(navigator.userAgent);
-  }
   $('#input-password').append('<a id="show-password" href="#null">Show Password</a>');
-  $('#show-password').on('mousedown', function(e) {
+  $('#show-password').on('click', function(e) {
     $('#password').attr('type','text');
-    e.preventDefault();
-  });
-  $('#show-password').on('mouseup', function(e) {
-    $('#password').attr('type','password');
     e.preventDefault();
   });
 

@@ -35,11 +35,15 @@ h1 {
 img {
   padding-top: 2em;
   padding-bottom: 1em;
-
+  width: 20%;
+  height: auto;
 }
 
 body {
   margin: 1.5em;
+/*  box-sizing: border-box;
+  width: 100%;*/
+  display: block;
 }
 
 /*  Form base styles */
@@ -62,21 +66,98 @@ input {
   color: #003300;
   border: 0;
   padding: 1em;
-  border-radius: 0.5em;
+  border-radius: 0.25em;
 }
 
 li[id^="input"] {
   margin-bottom: 1em;
 }
 
-/* end of form base styles */
+ul {
+  border: 2em;
+  border-color: #FFFFFF;
+}
+
 /* ===== STATE STYLES ===== */
 /* media queries, state ex. nojs (has is (isActive, Inactive)) */
-/*.hasjs input[type="submit"] {
+
+
+.hasjs a[id^="show"] {
   position: absolute;
   left: -100000em;
 }
 
-.hasjs input[type="submit"].active {
-  position: static;
-}*/
+/* 1025 px @ 16px/em */
+@media screen and (min-width: 64.06em) {
+  .hasjs a[id^="show"] {
+    position: static;
+    justify-content: center;
+  }
+}
+
+/* 600 px @ 16px/em */
+@media screen and (min-width:  37.5em )
+{
+  img { width: 17%; }
+}
+
+/* 700 px @ 16px/em */
+@media screen and (min-width:  43.75em )
+{
+  img { width: 16%; }
+}
+
+/* 800 px @ 16px/em */
+@media screen and (min-width:  50em )
+{
+  img { width: 15%; }
+}
+
+/* 900 px @ 16px/em */
+@media screen and (min-width:  56.25em )
+{
+  img { width: 14%; }
+}
+
+/* 1000 px @ 16px/em */
+@media screen and (min-width:  62.5em )
+{
+  img { width: 13%; }
+}
+
+/* 1100 px @ 16px/em */
+@media screen and (min-width:  68.75em )
+{
+  img { width: 12%; }
+}
+
+/* 1200 px @ 16px/em */
+@media screen and (min-width:  75em )
+{
+  img { width: 11%; }
+}
+
+/* 1300 px @ 16px/em */
+@media screen and (min-width:  81.25em )
+{
+  img { width: 10%; }
+}
+
+/* 1400 px @ 16px/em */
+@media screen and (min-width:  87.5em )
+{
+  img { width: 9%; }
+}
+
+/* 1500 px @ 16px/em */
+@media screen and (min-width:  93.75em )
+{
+  img { width: 8%; }
+}
+
+
+/* 1600 px @ 16px/em */
+@media screen and (min-width:  100em)
+{
+  img { width: 7%; }
+}

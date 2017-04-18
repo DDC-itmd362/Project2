@@ -8,9 +8,12 @@ $(function($) {
   );
 
   $('#input-password').append('<a id="show-password" href="#null">Show Password</a>');
-  $('#show-password').on('click', function(e) {
+  $('#show-password').on('mousedown touchstart', function(e) {
     $('#password').attr('type','text');
     e.preventDefault();
   });
-
+  $('#show-password').on('mouseup touchend', function(e) {
+    $('#password').attr('type','password');
+    e.preventDefault();
+});
 })

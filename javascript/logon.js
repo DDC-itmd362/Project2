@@ -9,11 +9,11 @@ $(function($) {
 
   $('#input-password').append('<a id="show-password" href="#null">Show Password</a>');
   $('#show-password').on('mousedown touchstart', function(e) {
-    $('#password').attr('type','text');
+    $('#password').attr('type', 'text');
     e.preventDefault();
   });
   $('#show-password').on('mouseup touchend', function(e) {
-    $('#password').attr('type','password');
+    $('#password').attr('type', 'password');
     e.preventDefault();
-});
+  });
 })

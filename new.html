@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>IIT Logon</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/screen-logon.css"/>
+  <!-- <link rel="stylesheet" media="screen" href="css/screen.css"/> -->
+  <link href="https://fonts.googleapis.com/css?family=Andika|Capriola|Lato|Sansita" rel="stylesheet"/>
+</head>
+<body>
+  <h1> IIT Login </h1>
+  <header id="header">
+    <!-- <img id="IIT-logo" src="../img/IIT-logo25.png" alt="IIT's Logo"/> -->
+    <figure id="header-image">
+      <img src="../img/IIT-logo25.png"
+      srcset="../img/IIT-logo40.png 400w,
+              ../img/IIT-logo60.png 500w"
+      sizes="(min-width: 100vw)"
+      alt="IIT Logo" />
+    </figure>
+  </header>
+  <main id="content">
+    <form action="/welcome" id="login" name="login" method="get" autocomplete="off">
+      <ol>
+        <li id="input-username">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="User Name" name="username" required/>
+        </li>
+        <li id="input-password">
+          <label for="password">Password</label>
+          <input type="text" id="password" placeholder="Password" name="password" required/>
+        </li>
+        <li id="input-submit">
+          <input type="submit" name="submit" id="submit" value="Log In"/>
+        </li>
+      </ol>
+    </form>
+  </main>
+
+  <script src="javascript/home.js" type="text/javascript"></script>
+</body>
+</html>

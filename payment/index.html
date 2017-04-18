@@ -9,10 +9,25 @@
 </head>
 <body>
   <h1> Tuition Payment Page </h1>
-  <a class="button" href="#credit">Pay by Credit Card</a>
-  <img src="../img/creditcard.jpg" alt="creditcard" style="width:4em;height:2.5em;">
-  <a class="button" href="#check">Pay by Checking Account</a>
-  <img src="../img/check.jpg" alt="check" style="width:5em;height:2.5em;">
+  <h2> Account Activity </h2>
+  <section class="activity">
+    <ul>
+      <li>Tuition: $42,000</li>
+      <li>Activity Fee: $400</li>
+      <li>CTA U-Pass: $150</li>
+      <li>Health Insurance: $1400</li>
+      <li>Pell Grant: -$700</li>
+      <li>MAP Grant: -$500</li>
+      <li> Stem Scholarship: -$5,000</li>
+      <li>Transfer Scholarship: -$7,000</li>
+      <li>Federal Loans: -$20,000</li>
+      <li class="total">Total Balance: $10,750</li>
+    </ul> 
+  </section>
+<a class="button" href="#credit">Pay by Credit Card</a>
+<img src="../img/creditcard.jpg" alt="creditcard" style="width:4em;height:2.5em;"> 
+<a class="button" href="#check">Pay by Checking Account</a>
+<img src="../img/check.jpg" alt="check" style="width:5em;height:2.5em;">
   <h2 id="credit">Credit Card Payment</h2>
   <form id="form" name="form" action="#null" method="post" class="credit" onSubmit="return check()">
     <label for ="name">Please enter name as appears on card:</label>    
@@ -52,7 +67,6 @@
     <input type="email" id="email" name="email" placeholder="johndoe123@hawk.iit.edu" required />
     <input type="submit" value ="Submit payment" class="button"/>
   </form>
-  <section class ="checktitle">
     <h2 id="check">Checking Account Payment</h2>
     <form id="form" name="form" action="#null" method="post" class="checking" onSubmit="return check()">
       <label for ="name">Please enter full name:</label>    
@@ -72,8 +86,7 @@
       <label for ="email">E-mail address for reciept:</label>    
       <input type="email" id="email" name="email" placeholder="johndoe@hawk.iit.edu" required />
       <input type="submit" value ="Submit payment" class="button"/>
-    </form>
-  </section>
+  </form>
 </body>
 </html>
 

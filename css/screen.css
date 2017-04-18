@@ -31,6 +31,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 1.9em; 
+  font-weight: bold;
+  padding-bottom: 0.5em; 
+  text-align: center;
+}
 
 form {
   width: 30em;
@@ -45,15 +51,16 @@ form {
 
 /* ===== LAYOUT STYLES ===== */
 
-.menu {
+.total {
+    font-size: 1.75em;
+}
+
+.activity {
+  font-weight: bold;
   border-width: 0.33em;
   border-style: solid;
   white-space: pre-line;
-  float: center;
-  width: 10em;
-}
-
-.slideshow {
+  border-radius: 0.33em;
   width: 100%;
 }
 

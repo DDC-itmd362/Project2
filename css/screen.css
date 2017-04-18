@@ -23,10 +23,9 @@ html {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 1.9em;
   padding-top: 0.94em;  
   font-weight: bold;
-  line-height: 1.32; 
   padding-bottom: 0.94em; 
   text-align: center;
 }
@@ -47,6 +46,7 @@ form {
   padding-bottom: 0.94em; 
   margin: 0 auto;
   text-align: left;
+  border-radius: 0.25em;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -140,3 +140,92 @@ form {
 .show {display:block;}
 
 /* ===== STATE STYLES ===== */
+
+@media screen and (min-width: 31.250em) 
+  /* 500 pixels or larger screens */{
+h1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 2.5em;
+  line-height: 1.2em; 
+  position: static;
+  justify-content: center;
+  }
+h2 {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 2.0em;
+  line-height: 1.2em; 
+  }
+.checking {
+  border-radius: 0.33em;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1.2em; 
+  width: 80%;
+}
+.credit {
+  border-radius: 0.30em;
+  font-size: 1.6em;
+  font-weight: 700;
+  white-space: pre-line;
+  line-height: 1.2em; 
+  width: 80%;
+}
+.activity {
+  border-radius: 0.25em;
+  font-size: 1.5em;
+  font-weight: 900;
+  white-space: pre-line;
+  line-height: 1.2em; 
+  width: 80%;
+  position:relative;
+  right: -14%;
+}
+.total {
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 50em)
+/* 800 pixels or larger screens*/ {
+h1 {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 3em; 
+  line-height: 1.2em; 
+  }
+h2 {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 2em;
+  line-height: 1.2em; 
+  }
+.checking {
+  border-radius: 0.22em;
+  font-size: 1.5em;
+  font-weight: 900;
+  line-height: 1.2em; 
+  width: 70%;
+}
+.credit {
+  border-radius: 0.25em;
+  font-size: 1.5em;
+  font-weight: 900;
+  white-space: pre-line;
+  line-height: 1.2em; 
+  width: 70%;
+}
+.activity {
+  border-radius: 0.25em;
+  font-size: 1.5em;
+  font-weight: 900;
+  white-space: pre-line;
+  line-height: 1.2em;
+  width: 70%; 
+  position:relative;
+  right: -14%;
+}
+.total {
+    font-size: 1.2em;
+}
+}

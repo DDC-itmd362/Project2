@@ -38,7 +38,9 @@ img {
   width: 20%;
   height: auto;
 }
-
+#slide{
+  width: 45%;
+}
 body {
   margin: 1.5em;
   display: block;

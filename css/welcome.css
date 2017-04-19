@@ -1,0 +1,104 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+
+/* ===== BASE STYLES ===== */
+
+html {
+  font-family: "Lucida bright", sans-serif;
+  font-size: 1.5em;
+  background-color: #90EE90;
+  font: #FFFFFF;
+  padding-bottom: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  white-space: pre-line;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  padding-top: 0.94em;  
+  font-weight: bold;
+  line-height: 1.32em; 
+  padding-bottom: 0.94em; 
+  text-align: center;
+}
+
+h2{
+  font-size:1.5em;
+  padding-top: 0.5em;  
+  font-weight: bold;
+  line-height: 1.32; 
+  padding-bottom: 0.5em; 
+  text-align: center;
+}
+
+form {
+  width: 30em;
+  font-size: 1em; 
+  padding-top: 0.94em; 
+  font-weight: bold;
+  line-height: 1.32em; 
+  padding-bottom: 0.94em; 
+  margin: 0 auto;
+  text-align: left;
+}
+nav {
+  width: 50%;
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CF102D;
+}
+nav ul li{
+  width: 50%;
+  position: float;
+}
+
+li a {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 0.4em 1em;
+  line-height: .6em;
+  text-decoration: none;
+  font-size: 0.6em;
+}
+
+li a:hover {
+  background-color: #76777B;
+  color: white;
+}
+/* ===== LAYOUT STYLES ===== */
+.menu{
+  margin-bottom: 8em;
+}
+
+.slideshow {
+  width: 100%;
+  
+}
+
+/* Shows the menu */
+.show {display:block;}
+
+#picDetail, p{
+  font-size: 0.66em;
+}
+
+#slide {
+  width: 45%;
+}
+/* ===== STATE STYLES ===== */

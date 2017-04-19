@@ -98,4 +98,7 @@ li a:hover {
   font-size: 0.66em;
 }
 
+#slide {
+  width: 45%;
+}
 /* ===== STATE STYLES ===== */

@@ -16,3 +16,6 @@ Doug Rubio:
 Overall user experience and design
 Testing and debugging scripts
 
+Dhaval Patel:
+I'm a great team person. My main strength is in Javascript and HTML.
+

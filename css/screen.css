@@ -24,26 +24,26 @@ html {
 
 h1 {
   font-size: 1.9em;
-  padding-top: 0.94em;  
+  padding-top: 0.94em;
   font-weight: bold;
-  padding-bottom: 0.94em; 
+  padding-bottom: 0.94em;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.9em; 
+  font-size: 1.9em;
   font-weight: bold;
-  padding-bottom: 0.5em; 
+  padding-bottom: 0.5em;
   text-align: center;
 }
 
 form {
   width: 30em;
-  font-size: 1em; 
-  padding-top: 0.94em; 
+  font-size: 1em;
+  padding-top: 0.94em;
   font-weight: bold;
-  line-height: 1.32em; 
-  padding-bottom: 0.94em; 
+  line-height: 1.32em;
+  padding-bottom: 0.94em;
   margin: 0 auto;
   text-align: left;
   border-radius: 0.25em;
@@ -71,7 +71,8 @@ form {
   white-space: pre-line;
   width: 100%;
 }
-.checking{
+
+.checking {
   border-width: 0.33em;
   border-style: solid;
   border-radius: 0.33em;
@@ -81,73 +82,78 @@ form {
 
 
 .button {
-    background: #EA7B00;
-    color: #fff;
-    padding: .75em 2em;
-    text-align: center;
-    display: inline-block;
-    font-size: .60em;
-    border: none;
-    padding: .5em .938em .5em .938em;
-    background: #FF8500;
-    color: #fff;
-    border-radius: .5em;
+  background: #EA7B00;
+  color: #fff;
+  padding: 0.75em 2em;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.6em;
+  border: none;
+  padding: 0.5em 0.938em 0.5em 0.938em;
+  background: #FF8500;
+  color: #fff;
+  border-radius: 0.5em;
 }
 
 
- /* Dropdown Button */
+/* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em; /* 16px */
-    font-size: 1em; /* 16px */
-    border: none;
-    cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em; /* 16px */
+  font-size: 1em; /* 16px */
+  border: none;
+  cursor: pointer;
 }
 
 /* Dropdown button */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+  background-color: #3e8e41;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 /* dropdown */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 10em; /* 160 px */
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10em; /* 160 px */
+  z-index: 1;
 }
 
 /* choices in dropdown */
 .dropdown-content a {
-    color: black;
-    padding: .750em 1em;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  display: block;
 }
 
 /* dropdown color */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 /* Shows the menu */
-.show {display:block;}
+.show {
+  display: block;
+}
 
 /* ===== STATE STYLES ===== */
 
-@media screen and (min-width: 31.250em) 
+
+@media screen and (min-width: 31.250em)
   /* 500 pixels or larger screens */{
 h1 {
   padding-left: 5%;
   padding-right: 5%;
   font-size: 2.5em;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   position: static;
   justify-content: center;
   }
@@ -155,13 +161,13 @@ h2 {
   padding-left: 5%;
   padding-right: 5%;
   font-size: 2.0em;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   }
 .checking {
   border-radius: 0.33em;
   font-size: 1.6em;
   font-weight: 700;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   width: 80%;
 }
 .credit {
@@ -169,7 +175,7 @@ h2 {
   font-size: 1.6em;
   font-weight: 700;
   white-space: pre-line;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   width: 80%;
 }
 .activity {
@@ -177,7 +183,7 @@ h2 {
   font-size: 1.5em;
   font-weight: 900;
   white-space: pre-line;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   width: 80%;
   position:relative;
   right: -14%;
@@ -191,20 +197,20 @@ h2 {
 h1 {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 3em; 
-  line-height: 1.2em; 
+  font-size: 3em;
+  line-height: 1.2em;
   }
 h2 {
   padding-left: 5%;
   padding-right: 5%;
   font-size: 2em;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   }
 .checking {
   border-radius: 0.22em;
   font-size: 1.5em;
   font-weight: 900;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   width: 70%;
 }
 .credit {
@@ -212,7 +218,7 @@ h2 {
   font-size: 1.5em;
   font-weight: 900;
   white-space: pre-line;
-  line-height: 1.2em; 
+  line-height: 1.2em;
   width: 70%;
 }
 .activity {
@@ -221,7 +227,7 @@ h2 {
   font-weight: 900;
   white-space: pre-line;
   line-height: 1.2em;
-  width: 70%; 
+  width: 70%;
   position:relative;
   right: -14%;
 }

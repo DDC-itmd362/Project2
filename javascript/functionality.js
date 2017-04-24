@@ -1,5 +1,12 @@
+  //variable that will increment through the images
+  var step = 0;
+  var whichimage = 0;
+
+  //variable that will replace the <p> content each time
+  var paragraph = document.getElementById("picDetail");
+
   var slideimages = new Array() // create new array to preload images
-  slideimages[0] = new Image() // create new instance of image object	
+  slideimages[0] = new Image() // create new instance of image object
   slideimages[0].src = "../img/basketball.jpg" // set image object src property to an image's src, preloading that image in the process
   slideimages[1] = new Image()
   slideimages[1].src = "../img/programming.jpg"
@@ -10,13 +17,8 @@
   slideimages[4] = new Image()
   slideimages[4].src = "../img/gym.jpg"
 
-  //variable that will increment through the images
-  var step = 0;
-  var whichimage = 0;
-  
-  //variable that will replace the <p> content each time
-  var paragraph = document.getElementById("picDetail");
-  
+
+
   function slideit(){
     //if browser does not support the image object, exit.
     if (!document.images)
@@ -30,9 +32,9 @@
     //call function "slideit()" every 8 seconds
     setTimeout("slideit()",8000)
     myFunction();
-    
+
   }
-  
+
   function myFunction(){
     if(document.getElementById('slide').src === slideimages[0].src)
       paragraph.innerHTML = "IIT's basketball team beats UIC by 30 points! Go hawks.";

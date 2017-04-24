@@ -15,5 +15,16 @@ $(function($) {
   $('#show-password').on('mouseup touchend', function(e) {
     $('#password').attr('type', 'password');
     e.preventDefault();
+
   });
+
+  $('#login').on('submit', function(e) {
+    if ($('#username').val() === "VladTheValid") {
+      window.location.replace('welcome/#0');
+    } else {
+      $('#login').prepend('<div class="error"> Incorrect User name or Password </div>');
+    }
+    e.preventDefault();
+  })
 })
+

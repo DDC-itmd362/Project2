@@ -1,0 +1,104 @@
+screen.css
+ 85:3  ✖  Unexpected duplicate "padding"      declaration-block-no-duplicate-properties
+ 86:3  ✖  Unexpected duplicate "background"   declaration-block-no-duplicate-properties
+ 87:3  ✖  Unexpected duplicate "color"        declaration-block-no-duplicate-properties
+
+functionality.js
+   3:7   warning  'whichimage' is assigned a value but never used  no-unused-vars
+  24:5   error    Expected { after 'if' condition                  curly
+  25:5   error    Expected indentation of 6 spaces but found 4     indent
+  28:5   error    Expected { after 'if' condition                  curly
+  30:5   error    Expected { after 'else'                          curly
+  33:27  error    A space is required after ','                    comma-spacing
+  39:5   error    Expected { after 'if' condition                  curly
+  41:5   error    Expected { after 'if' condition                  curly
+  43:5   error    Expected { after 'if' condition                  curly
+  45:5   error    Expected { after 'if' condition                  curly
+  47:5   error    Expected { after 'if' condition                  curly
+
+payment/index.html
+index.html: line 13, col 52, the `style` attribute is banned
+index.html: line 15, col 42, the `style` attribute is banned
+index.html: line 17, col 74, attribute names must match the format: dash
+index.html: line 24, col 5, an element with the id "exp" does not exist (should match `for` attribute)
+index.html: line 25, col 18, value must match the format: dash
+index.html: line 26, col 18, the `name` attribute is not double quoted
+index.html: line 26, col 32, the `id` attribute is not double quoted
+index.html: line 26, col 32, value must match the format: dash
+index.html: line 27, col 21, the `value` attribute is not double quoted
+index.html: line 28, col 21, the `value` attribute is not double quoted
+index.html: line 29, col 21, the `value` attribute is not double quoted
+index.html: line 30, col 21, the `value` attribute is not double quoted
+index.html: line 31, col 21, the `value` attribute is not double quoted
+index.html: line 32, col 21, the `value` attribute is not double quoted
+index.html: line 33, col 21, the `value` attribute is not double quoted
+index.html: line 34, col 21, the `value` attribute is not double quoted
+index.html: line 35, col 21, the `value` attribute is not double quoted
+index.html: line 36, col 21, the `value` attribute is not double quoted
+index.html: line 37, col 21, the `value` attribute is not double quoted
+index.html: line 38, col 21, the `value` attribute is not double quoted
+index.html: line 39, col 21, the `value` attribute is not double quoted
+index.html: line 41, col 18, the `name` attribute is not double quoted
+index.html: line 41, col 32, the `id` attribute is not double quoted
+index.html: line 41, col 32, value must match the format: dash
+index.html: line 42, col 21, the `value` attribute is not double quoted
+index.html: line 43, col 21, the `value` attribute is not double quoted
+index.html: line 44, col 21, the `value` attribute is not double quoted
+index.html: line 45, col 21, the `value` attribute is not double quoted
+index.html: line 48, col 18, value must match the format: dash
+index.html: line 48, col 61, the id "expiry" is already in use
+index.html: line 57, col 78, attribute names must match the format: dash
+index.html: line 57, col 14, the id "form" is already in use
+index.html: line 59, col 29, the id "name" is already in use
+index.html: line 71, col 29, the id "amount" is already in use
+index.html: line 73, col 30, the id "email" is already in use
+
+Welcome/index.html
+index.html: line 1, col 16, line ending does not match format: lf
+index.html: line 2, col 17, line ending does not match format: lf
+index.html: line 3, col 7, line ending does not match format: lf
+index.html: line 4, col 31, line ending does not match format: lf
+index.html: line 5, col 27, line ending does not match format: lf
+index.html: line 6, col 91, line ending does not match format: lf
+index.html: line 7, col 67, line ending does not match format: lf
+index.html: line 8, col 8, line ending does not match format: lf
+index.html: line 9, col 7, line ending does not match format: lf
+index.html: line 10, col 66, line ending does not match format: lf
+index.html: line 11, col 30, line ending does not match format: lf
+index.html: line 12, col 25, line ending does not match format: lf
+index.html: line 13, col 24, line ending does not match format: lf
+index.html: line 14, col 11, line ending does not match format: lf
+index.html: line 15, col 77, line ending does not match format: lf
+index.html: line 16, col 73, line ending does not match format: lf
+index.html: line 17, col 71, line ending does not match format: lf
+index.html: line 18, col 57, line ending does not match format: lf
+index.html: line 19, col 12, line ending does not match format: lf
+index.html: line 20, col 9, line ending does not match format: lf
+index.html: line 21, col 24, line ending does not match format: lf
+index.html: line 22, col 9, line ending does not match format: lf
+index.html: line 23, col 44, line ending does not match format: lf
+index.html: line 24, col 54, line ending does not match format: lf
+index.html: line 25, col 51, line ending does not match format: lf
+index.html: line 26, col 59, line ending does not match format: lf
+index.html: line 27, col 50, line ending does not match format: lf
+index.html: line 28, col 10, line ending does not match format: lf
+index.html: line 29, col 9, line ending does not match format: lf
+index.html: line 30, col 13, line ending does not match format: lf
+index.html: line 31, col 1, line ending does not match format: lf
+index.html: line 32, col 30, line ending does not match format: lf
+index.html: line 33, col 24, line ending does not match format: lf
+index.html: line 34, col 80, line ending does not match format: lf
+index.html: line 35, col 31, line ending does not match format: lf
+index.html: line 36, col 13, line ending does not match format: lf
+index.html: line 37, col 1, line ending does not match format: lf
+index.html: line 38, col 91, line ending does not match format: lf
+index.html: line 39, col 57, line ending does not match format: lf
+index.html: line 40, col 8, line ending does not match format: lf
+index.html: line 41, col 8, line ending does not match format: lf
+index.html: line 10, col 12, value must match the format: dash
+index.html: line 10, col 3, void element should close itself
+index.html: line 21, col 11, the id "navigation" is already in use
+index.html: line 34, col 5, void element should close itself
+index.html: line 35, col 11, value must match the format: dash
+
+

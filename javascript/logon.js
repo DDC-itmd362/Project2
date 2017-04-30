@@ -19,10 +19,27 @@ $(function($) {
   });
 
   $('#login').on('submit', function(e) {
-    if ($('#username').val() === "VladTheValid") {
-      window.location.replace('welcome/#0');
+    $('.error').remove();
+    var errorMessage = '';
+    var logonError = false;
+    var passwordError = false;
+    if ($('#username').val() != 'VladTheValid') {
+      logonError = true;
+      errorMessage = 'Invalid Username ';
+    }
+    if ($('#password').val() != 'abc123') {
+      if (logonError) {
+        console.log('error here');
+        errorMessage = errorMessage.concat('and Password Entered');
+      } else {
+        passwordError = true;
+        errorMessage = "Invalid Password Entered";
+      }
+    }
+    if (logonError  || passwordError) {
+      $('#login').prepend('<div class="error">' + errorMessage +'</div>');
     } else {
-      $('#login').prepend('<div class="error"> Incorrect User name or Password </div>');
+      window.location.replace('welcome/#0');
     }
     e.preventDefault();
   })
